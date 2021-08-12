@@ -1,0 +1,152 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+/* CSS Variables */
+$black: #000;
+$gray300: #969696;
+$grayBlue300: #404e67;
+$grayLight300: #d9d9d9;
+$orange: #f90;
+$red: #c00;
+$white: #fff;
+
+/* Index */
+
+/* Navbar */
+
+.dx-icon {
+  display: inline-block;
+  border: 1px solid $orange;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0.35rem 0.75rem;
+  min-width: auto;
+}
+.dx-icon > * {
+  display: inline-block;
+  text-align: center;
+}
+/* @mixin button-outline-variant */
+#dx-navbar {
+  margin-bottom: 52px;
+}
+#dx-navbar .dx-navbar-search {
+  /* width: 60%; */
+}
+#dx-navbar .dx-nav {
+  /* flex-grow: 0;
+  flex-basis: 100%; */
+}
+#dx-navbar #dx-header-logo {
+  max-width: 50px;
+}
+#dx-navbar .dx-delivery-text {
+  margin-bottom: 0;
+}
+#dx-navbar .dx-delivery-place {
+  margin-bottom: 0;
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#dx-navbar .dx-location {
+  font-size: 14px;
+}
+#dx-navbar .dx-location span {
+  margin-right: 0.75rem;
+  display: inline-block;
+}
+#dx-navbar #dx-form-location input {
+  font-size: 0.75rem;
+}
+
+/* Footer */
+#dx-footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $grayBlue300;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#dx-footer .dx-footer-text {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 25px;
+}
+#dx-footer .dx-footer-link {
+  color: $white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+#dx-footer .dx-footer-link:hover {
+  text-decoration: underline;
+}
+
+/* General styles */
+.btn-dx-orange {
+  background-color: $orange;
+  color: $white;
+}
+.dx-orange {
+  color: $orange;
+}
+.dx-bg-white {
+  background-color: $white;
+}
+/* 
+  Cinza Titulo: #404E67
+  Cinza Descricao: #969696
+  Cinza borda card: #D9D9D9
+  Cinza footer: #404E67
+  Laranja: #FF9900
+*/
+/* Content */
+.dx-content {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+/* Fonts */
+.dx-title {
+  font-size: 32px;
+  color: $grayBlue300;
+}
+.dx-description {
+  font-size: 18px;
+  color: $gray300;
+}
+.dx-link {
+  color: $orange;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dx-link:hover {
+  color: $orange;
+  text-decoration: underline;
+}
+
+/* Cards */
+.dx-card {
+  border: 1px solid $grayLight300;
+  padding: 25px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.dx-card-img {
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  border-radius: 50%;
+}
+.dx-card-info {
+  margin-left: 10px;
+}
+.dx-card-title {
+  color: $grayBlue300;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

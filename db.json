@@ -1,0 +1,35 @@
+{
+  "data": {
+    "total": 1,
+    "pages": 1,
+    "address": {
+      "postalCode": "12216510",
+      "city": "São José dos Campos",
+      "neighbourhood": "Jardim Topazio"
+    },
+    "currentPage": 0,
+    "items": [
+      {
+        "id": "9e627db7-d5f7-4b4d-b810-707889f82b8d",
+        "name": "Extra Hiper - Nelson D'Avila",
+        "imageUrl": null,
+        "establishmentUrl": "extra-hiper---nelson-d'avila-jardim-oswaldo-cruz",
+        "productsWithDiscount": 15
+      },
+      {
+        "id": "9e627db7-d5f7-4b4d-b810-707889f82b8d",
+        "name": "Mercado 1",
+        "imageUrl": null,
+        "establishmentUrl": "extra-hiper---nelson-d'avila-jardim-oswaldo-cruz",
+        "productsWithDiscount": 15
+      },
+      {
+        "id": "9e627db7-d5f7-4b4d-b810-707889f82b8d",
+        "name": "Mercado 2",
+        "imageUrl": null,
+        "establishmentUrl": "extra-hiper---nelson-d'avila-jardim-oswaldo-cruz",
+        "productsWithDiscount": 15
+      }
+    ]
+  }
+}
